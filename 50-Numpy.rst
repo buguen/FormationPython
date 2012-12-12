@@ -1,2 +1,2 @@
-Numierical Python (Numpy)
+Numerical Python (Numpy)
 =========================
