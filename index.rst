@@ -106,7 +106,7 @@ Séance 5 Numpy
 Séance 6 : Matplotlib 
 ~~~~~~~~~~~~~~~~~~~~~
 
-    + `visite de la grande galerie <http://matplotlib.og/gallery.html>`_ 
+    + `visite de la grande galerie <http://matplotlib.org/gallery.html>`_ 
 
     + constuction graduelle d'un plot 2d en ajoutant des éléments
       graduellement  pour enrichir le graphe (légende, titres, ....) 
