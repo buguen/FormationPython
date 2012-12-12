@@ -17,7 +17,8 @@ Le contenu des deux jours de formation est conçu sur 12 heures (4 séances de
 1h30). 
 
 La formation doit permettre d'apréhender par l'exemple les notions de base du langage Python lors de
-la première journée, et de découvrir l'utilisation de Python dans le domaine des sciences lors de la seconde journée. 
+la première journée, et de découvrir l'utilisation de Python dans le domaine
+des sciences, lors de la seconde journée. 
 
 
 
@@ -25,8 +26,8 @@ Première journée : Le langage Python
 -------------------------------------
 
 
-Séance 1  : Overview
-~~~~~~~~~~~~~~~~~~~~
+Séance 1  : Un apercu de Python 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     + Objectif de la formation 
     + Présentation générale du monde Python
