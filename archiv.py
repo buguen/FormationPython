@@ -1,6 +1,8 @@
 import glob
 import os.path
-
+"""
+Index recursively all pdf file of the directory
+"""
 print "PDF References"
 print "=============="
 print 

@@ -108,8 +108,8 @@ Séance 6 : Matplotlib
 
     + `visite de la grande galerie <http://matplotlib.org/gallery.html>`_ 
 
-    + constuction graduelle d'un plot 2d en ajoutant des éléments
-      graduellement  pour enrichir le graphe (légende, titres, ....) 
+    + construction d'un graphe simple en 2d en ajoutant des éléments
+      graduellement pour enrichir le graphe (légende, titres, ....) 
 
 Séance 7 : Scipy 
 ~~~~~~~~~~~~~~~~
