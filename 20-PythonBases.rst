@@ -1,3 +1,3 @@
 
-Les bases du language Python 
+Les bases du langage Python 
 ============================

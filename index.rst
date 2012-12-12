@@ -21,7 +21,7 @@ la première journée, et de découvrir l'utilisation de Python dans le domaine 
 
 
 
-Première journée : Le language Python 
+Première journée : Le langage Python 
 -------------------------------------
 
 
@@ -65,23 +65,26 @@ Séance 2 : Python de base
 
 Séance 3 : Chaines et fichiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    traitement des chaines de caractères  
-    s.replace() 
-    s1 + s2 
-    un exemple de regexp simple
-    type de fichiers 
-    mode d'accès
-    glob.glob 
+    + traitement des chaines de caractères  
+        + s.replace() 
+        + s1 + s2 
+    + un exemple de regexp simple
+    + type de fichiers 
+        + mode d'accès
+    + glob.glob 
 
 
-Séance 4 : Python Objet 
-~~~~~~~~~~~~~~~~~~~~~~~
+Séance 4 : Algorithmique - Python Objet - BDD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Classe 
-    Méthodes
-    Surcharge d'opérateurs 
+    + Classe 
+    + Méthodes
+    + Surcharge d'opérateurs 
 
-    Construire un exemple progressivement 
+    + Construire un exemple de classe progressivement 
+
+        Idéalement un exemple avec l'utilisation d'une base de données MySQL
+        utiliser `pymysql`
 
 Deuxième journée : Python Scientifique
 ---------------------------------------
