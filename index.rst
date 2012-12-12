@@ -34,11 +34,14 @@ Séance 1  : Un apercu de Python
         + Historique 
         + `Le tao de python <http://www.willmcgugan.com/blog/tech/2009/3/7/live-your-life-by-the-tao-of-python/>`_
         + Les différentes communautés Python 
-        + Les bibliothèques - modules 
+        + Modules et espace de nom  
+        + Les bibliothèques - modules
             + numpy scipy matplotlib 
             + scikit-imahe scikits-learn   
-            + networkx shapely  
-            + ...
+            + networkx, shapely  
+            + simpy, SymPy 
+            + 
+
         + ipython notebook 
 
             présentation de l'outil en live
@@ -109,7 +112,11 @@ Séance 6 : Matplotlib
     + `visite de la grande galerie <http://matplotlib.org/gallery.html>`_ 
 
     + construction d'un graphe simple en 2d en ajoutant des éléments
-      graduellement pour enrichir le graphe (légende, titres, ....) 
+      graduellement pour enrichir le graphe (légendes, titre, ....) 
+
+    + imshow , contouplot 
+     
+    + 3D ? 
 
 Séance 7 : Scipy 
 ~~~~~~~~~~~~~~~~
@@ -124,7 +131,7 @@ Séance 8 : Cas pratique de mise en oeuvre
     1. Récupérer des données physiques ouvertes sur le réseau (T°, ...) 
     2. Appliquer un traitement 
     3. Mettre en forme une représentation graphique des données    
-    4. automatisation du script avec crontab    
+    4. Automatisation du script avec crontab    
 
 
 
