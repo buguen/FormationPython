@@ -3,16 +3,16 @@ Contenu de la formation
 =======================
 
 .. toctree::
-   :maxdepth:3
-
-   10-Overview.rst
-   20-PythonBases.rst
-   30-ChainesEtFichiers.rst
-   40-AlgorithmesEtObjets.rst
-   50-Numpy.rst
-   60-Matplotlib.rst
-   70-Scipy.rst
-   80-Synthese.rst
-   90-LiensUtiles.rst
+   :maxdepth: 3
+   
+   10-ApercuPython
+   20-PythonBases
+   30-ChainesEtFichiers
+   40-AlgorithmesEtObjets
+   50-Numpy
+   60-Matplotlib
+   70-Scipy
+   80-Synthese
+   90-LiensUtiles
 
 
