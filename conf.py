@@ -59,8 +59,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'template'
-copyright = u'2012, B.Uguen'
+project = u'PythonScientifique'
+copyright = u'Creatives Commons Document'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -202,8 +202,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'template.tex', u'template Documentation',
-   u'B.Uguen', 'manual'),
+  ('index', 'PythonScientifique.tex', u'Formation à Python pour les Sciences',
+   u'', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -232,8 +232,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'template', u'template Documentation',
-     [u'B.Uguen'], 1)
+    ('index', 'template', u'Python pour les Sciences',
+     [u'Toutes les bonnes volont\'es'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -246,8 +246,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'template', u'template Documentation',
-   u'B.Uguen', 'template', 'One line description of project.',
+  ('index', 'template', u'Python pour les Sciences',
+   u'', 'template', 'Projet de formation à Python Scientifique',
    'Miscellaneous'),
 ]
 

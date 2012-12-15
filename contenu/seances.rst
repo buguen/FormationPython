@@ -1,6 +1,6 @@
 
-Contenu de la formation 
-=======================
+Séances
+=======
 
 .. toctree::
    :maxdepth: 3
@@ -13,6 +13,14 @@ Contenu de la formation
    60-Matplotlib
    70-Scipy
    80-Synthese
+
+
+Autres
+======
+
+.. toctree::
+   :maxdepth: 3
+
    90-LiensUtiles
 
 

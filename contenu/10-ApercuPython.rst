@@ -17,6 +17,10 @@ Pour accompagner ce mouvement et pour l'accentuer, il importe que de plus en
 plus de scientifiques s'emparent de ces outils et apprennent à en maîtriser la
 puissance et à en apprécier l'élégance. 
 
+
+Premier exemple 
+----------------
+
 Voici un exemple d'une session très simple, exécutée dans l'environnement 
 interactif Ipython (développé à l'Université de Berkeley par `Fernando
 Perez <http://fperez.org>`_ ) qui vise à devenir une plateforme générique de l'utilisation du langage
@@ -94,7 +98,7 @@ possibilités :
 **La troisième solution est la bonne pratique**. 
 
 L'inconvénient, c'est qu'il faut alonger le nom des fonctions appartenant au module en les faisant précéder de
-**np.**, ce qui nuit (un peu) à la lisibilité du code.
+**np.**, (**numpy.** dans le premier cas), ce qui nuit (un peu) à la lisibilité du code.
 
 Le grand avantage est que l'on règle ainsi le problème du conflit entre
 espaces de noms. Celui ci peut être très gênant et souvent source d'erreurs pénibles
@@ -106,7 +110,7 @@ C'est trop gros, trop vaste, il faut cloisonner, et Python permet cela.
 Bien sûr si l'usage que l'on a de python implique très peu de module l'import * est raisonable. 
 
 Les librairies importantes ont des alias génériques adoptés par tous qu'il
-convient d'employer par soucis de portabilité.
+convient d'employer. 
 
 .. ipython::
 

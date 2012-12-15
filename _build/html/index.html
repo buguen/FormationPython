@@ -8,7 +8,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Formation Python et Python Scientifique &mdash; template 0.1 documentation</title>
+    <title>Formation Python et Python Scientifique &mdash; PythonScientifique 0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="template 0.1 documentation" href="#" />
-    <link rel="next" title="Contenu de la formation" href="seances.html" /> 
+    <link rel="top" title="PythonScientifique 0.1 documentation" href="#" />
+    <link rel="next" title="&lt;no title&gt;" href="AUTEURS.html" /> 
   </head>
   <body>
 
@@ -41,7 +41,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="seances.html" title="Contenu de la formation"
+          <a href="AUTEURS.html" title="&lt;no title&gt;"
              accesskey="N">next</a> |</li>
         <li><a href="#">home</a>|&nbsp;</li>
         <li><a href="search.html">search</a>|&nbsp;</li>
@@ -51,33 +51,9 @@
 
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Formation Python et Python Scientifique</a><ul>
-<li><a class="reference internal" href="#introduction">Introduction</a></li>
-<li><a class="reference internal" href="#premiere-journee-le-langage-python">Première journée : Le langage Python</a><ul>
-<li><a class="reference internal" href="#seance-1-un-apercu-des-possibles-utilisations-de-python">Séance 1 : Un apercu des possibles utilisations de Python</a></li>
-<li><a class="reference internal" href="#seance-2-elements-de-base-du-language">Séance 2 : Éléments de base du language</a></li>
-<li><a class="reference internal" href="#seance-3-chaines-et-fichiers">Séance 3 : Chaines et fichiers</a></li>
-<li><a class="reference internal" href="#seance-4-python-objet-bases-de-donnees">Séance 4 : Python Objet &amp; Bases de données</a><ul>
-<li><a class="reference internal" href="#deuxieme-journee-python-scientifique">Deuxième journée : Python Scientifique</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#seance-5-calcul-numerique-avec-numpy">Séance 5 : Calcul numérique avec Numpy</a></li>
-<li><a class="reference internal" href="#seance-6-graphiques-avec-matplotlib">Séance 6 : Graphiques avec Matplotlib</a></li>
-<li><a class="reference internal" href="#seance-7-calcul-scientifique-avec-scipy">Séance 7 : Calcul scientifique avec Scipy</a></li>
-<li><a class="reference internal" href="#seance-8-cas-pratique-de-mise-en-oeuvre">Séance 8 : Cas pratique de mise en oeuvre</a><ul>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
   <h4>Next topic</h4>
-  <p class="topless"><a href="seances.html"
-                        title="next chapter">Contenu de la formation</a></p>
+  <p class="topless"><a href="AUTEURS.html"
+                        title="next chapter">&lt;no title&gt;</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/index.txt"
@@ -106,201 +82,134 @@
             
   <div class="section" id="formation-python-et-python-scientifique">
 <h1>Formation Python et Python Scientifique<a class="headerlink" href="#formation-python-et-python-scientifique" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>Ce document est destiné à élaborer collaborativement une formation
-à Python et Python scientifique (Numpy, Scipy, matplotlib, ...)
-à destination des enseignants des classes préparatoires aux grandes écoles.</p>
-<p>La formation, prévue sur <em>deux jours</em> comporte 2x4 séances de 1h30 (12h au total),
-avec</p>
-<ul class="simple">
-<li>un premier jour centré sur Python &#8220;en générale&#8221;</li>
-<li>et le 2ème sur Python scientifique</li>
-</ul>
-<img alt="_images/plan_formation.png" src="_images/plan_formation.png" style="width: 500px;" />
-<p>Pour rendre un peu plus concrets les concepts présentés, chaque séance s&#8217;appuira sur
-un ou des exemples.</p>
+<style type="text/css">
+  div.documentwrapper h1 {
+      text-align: center;
+      font-size: 200% ;
+      font-weight: bold;
+  }
+
+</style><style type="text/css">
+  div.bodywrapper blockquote {
+      margin: 0 ;
+  }
+
+  div.toctree-wrapper ul {
+      margin: 0 ;
+      padding-left: 0px ;
+  }
+
+  li.toctree-l1 {
+      padding: 0 ;
+      list-style-type: none;
+      font-size: 150% ;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      font-weight: normal;
+      color: #20435c;
+      margin-left: 0;
+      margin-bottom: 1em;
+      font-weight: bold;
+      }
+
+  li.toctree-l1 a {
+      padding: 0 0 0 10px ;
+  }
+
+  li.toctree-l2 {
+      padding: 0.25em 0 0.25em 0 ;
+      list-style-type: none;
+      background-color: #FFFFFF;
+      font-size: 90% ;
+      font-weight: bold;
+  }
+
+  li.toctree-l2 ul {
+      padding-left: 40px ;
+  }
+
+  li.toctree-l3 {
+      font-size: 70% ;
+      list-style-type: square;
+      font-weight: normal;
+  }
+
+  li.toctree-l4 {
+      font-size: 85% ;
+      list-style-type: circle;
+      font-weight: normal;
+  }
+
+  div.topic li.toctree-l1 {
+      font-size: 100% ;
+      font-weight: bold;
+      background-color: transparent;
+      margin-bottom: 0;
+      margin-left: 1.5em;
+      display:inline;
+  }
+
+  div.topic p {
+      font-size: 90% ;
+      margin: 0.4ex;
+  }
+
+  div.topic p.topic-title {
+      display:inline;
+      font-size: 100% ;
+      margin-bottom: 0;
+  }
+
+  div.sidebar {
+      width: 25ex ;
+  }
+
+</style><div class="topic">
+<p class="topic-title first">Ce document</p>
+<p>Matériel pédagogique sur l&#8217;écosystème Python. Une rapide introduction
+sur les outils et techniques clés. Chaque chapitre correspond à un
+cours de 1 à 2 heures avec un degré croissant de complexité du
+débutant à l&#8217;expert.</p>
 </div>
-<div class="section" id="premiere-journee-le-langage-python">
-<h2>Première journée : Le langage Python<a class="headerlink" href="#premiere-journee-le-langage-python" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="seance-1-un-apercu-des-possibles-utilisations-de-python">
-<h3>Séance 1 : Un apercu des possibles utilisations de Python<a class="headerlink" href="#seance-1-un-apercu-des-possibles-utilisations-de-python" title="Permalink to this headline">¶</a></h3>
-<ul>
-<li><p class="first">Objectif de la formation</p>
-</li>
-<li><dl class="first docutils">
-<dt>Présentation générale du monde Python</dt>
-<dd><ul class="first last">
-<li><p class="first">Historique</p>
-</li>
-<li><p class="first"><a class="reference external" href="http://www.willmcgugan.com/blog/tech/2009/3/7/live-your-life-by-the-tao-of-python/">Le tao de python</a></p>
-</li>
-<li><p class="first">Les différentes communautés Python</p>
-</li>
-<li><p class="first">Modules et espace de nom</p>
-</li>
-<li><dl class="first docutils">
-<dt>Les bibliothèques - modules</dt>
-<dd><ul class="first last simple">
-<li>numpy scipy matplotlib</li>
-<li>scikit-image scikits-learn</li>
-<li>networkx, shapely</li>
-<li>simpy, SymPy</li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>les outils de travail avec Python</dt>
-<dd><ul class="first last simple">
-<li>éditeur de texte + IPython (commandes intéractives + <cite>%run</cite>)</li>
-<li>environnement de développement intégré (ex. Spyder)</li>
-<li>Notebook IPython (proche de Maple/Mathematica)</li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
-</div>
-<div class="section" id="seance-2-elements-de-base-du-language">
-<h3>Séance 2 : Éléments de base du language<a class="headerlink" href="#seance-2-elements-de-base-du-language" title="Permalink to this headline">¶</a></h3>
-<ul>
-<li><dl class="first docutils">
-<dt>structures de données</dt>
-<dd><ul class="first last simple">
-<li>(),[],{}</li>
-<li>listes en compréhension</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>éléments du language</dt>
-<dd><p class="first last">boucles, conditions, fonctions, itérateur, map , enumerate</p>
-</dd>
-</dl>
-</li>
-<li><p class="first">Exemple en algorithmique de base</p>
-</li>
-</ul>
-<div class="highlight-ipython"><div class="highlight"><pre><span class="gp">In [1]: </span><span class="k">def</span> <span class="nf">tri1</span><span class="p">():</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="seance-3-chaines-et-fichiers">
-<h3>Séance 3 : Chaines et fichiers<a class="headerlink" href="#seance-3-chaines-et-fichiers" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><ul>
-<li><dl class="first docutils">
-<dt>traitement des chaines de caractères</dt>
-<dd><ul class="first last simple">
-<li>s.replace()</li>
-<li>s1 + s2</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p class="first">un exemple de regexp simple</p>
-</li>
-<li><dl class="first docutils">
-<dt>type de fichiers</dt>
-<dd><ul class="first last simple">
-<li>mode d&#8217;accès</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p class="first">glob.glob</p>
-</li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="seance-4-python-objet-bases-de-donnees">
-<h3>Séance 4 : Python Objet &amp; Bases de données<a class="headerlink" href="#seance-4-python-objet-bases-de-donnees" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><ul>
-<li><p class="first">Classe</p>
-</li>
-<li><p class="first">Méthodes</p>
-</li>
-<li><p class="first">Surcharge d&#8217;opérateurs</p>
-</li>
-<li><p class="first">Construire un exemple de classe progressivement</p>
-<blockquote>
-<div><p>Idéalement un exemple avec l&#8217;utilisation d&#8217;une base de données MySQL
-utiliser <cite>pymysql</cite></p>
-</div></blockquote>
-</li>
-</ul>
-</div></blockquote>
-<div class="section" id="deuxieme-journee-python-scientifique">
-<h4>Deuxième journée : Python Scientifique<a class="headerlink" href="#deuxieme-journee-python-scientifique" title="Permalink to this headline">¶</a></h4>
-</div>
-</div>
-<div class="section" id="seance-5-calcul-numerique-avec-numpy">
-<h3>Séance 5 : Calcul numérique avec Numpy<a class="headerlink" href="#seance-5-calcul-numerique-avec-numpy" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><ul class="simple">
-<li>Lecture fichiers (type structuré)</li>
-<li>Algèbre de base</li>
-<li>broadcasting</li>
-<li>stacking(hstack,vstack,dstack)</li>
-<li>boucle ou pas boucle einsum vs numba comme exemple</li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="seance-6-graphiques-avec-matplotlib">
-<h3>Séance 6 : Graphiques avec Matplotlib<a class="headerlink" href="#seance-6-graphiques-avec-matplotlib" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><ul class="simple">
-<li><a class="reference external" href="http://matplotlib.org/gallery.html">visite de la grande galerie</a></li>
-<li>construction d&#8217;un graphe simple en 2d en ajoutant des éléments
-graduellement pour enrichir le graphe (légendes, titre, ....)</li>
-<li>imshow , contouplot</li>
-<li>3D ?</li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="seance-7-calcul-scientifique-avec-scipy">
-<h3>Séance 7 : Calcul scientifique avec Scipy<a class="headerlink" href="#seance-7-calcul-scientifique-avec-scipy" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><ul class="simple">
-<li>optimisation</li>
-<li>intégration, ode</li>
-<li>stats</li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="seance-8-cas-pratique-de-mise-en-oeuvre">
-<h3>Séance 8 : Cas pratique de mise en oeuvre<a class="headerlink" href="#seance-8-cas-pratique-de-mise-en-oeuvre" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><ol class="arabic simple">
-<li>Récupérer des données physiques ouvertes sur le réseau (T°, ...)</li>
-<li>Appliquer un traitement</li>
-<li>Mettre en forme une représentation graphique des données</li>
-</ol>
-</div></blockquote>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="seances.html">Contenu de la formation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="10-ApercuPython.html">Généralités sur Python et l&#8217;intérêt de son utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="20-PythonBases.html">Les bases du langage Python</a></li>
-<li class="toctree-l2"><a class="reference internal" href="30-ChainesEtFichiers.html">Manipulation des chaines de caractères et des fichiers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="40-AlgorithmesEtObjets.html">Algorithmique et notions d&#8217;objects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="50-Numpy.html">Numerical Python (Numpy)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="60-Matplotlib.html">Réaliser des graphiques avec Matplotlib</a></li>
-<li class="toctree-l2"><a class="reference internal" href="70-Scipy.html">Python Scientifique (SciPy)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="80-Synthese.html">Une application pratique de synthèse</a></li>
-<li class="toctree-l2"><a class="reference internal" href="90-LiensUtiles.html">Liens Utiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LISEZMOI.html">FormationPython</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="discussions/plan.html">Première journée : Le langage Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="discussions/plan.html#deuxieme-journee-python-scientifique">Deuxième journée : Python Scientifique</a></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+<hr class="docutils" />
+<small><p>Version: 0.1 (output of <tt class="docutils literal"><span class="pre">git</span> <span class="pre">describe</span></tt> for <a class="reference external" href="https://github.com/scipy-lectures/scipy-lecture-notes">project repository</a>)</p>
+<div style='visibility: hidden ; height=0'><p><tt class="xref download docutils literal"><span class="pre">PythonScientific.pdf</span></tt> <tt class="xref download docutils literal"><span class="pre">PythonScientific-simple.pdf</span></tt></p>
+</div>
+</small><div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contenu/intro.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contenu/seances.html">2. Séances</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contenu/10-ApercuPython.html">2.1. Généralités sur Python et l&#8217;intérêt de son utilisation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="contenu/10-ApercuPython.html#premier-exemple">2.1.1. Premier exemple</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/20-PythonBases.html">2.2. Les bases du langage Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/30-ChainesEtFichiers.html">2.3. Manipulation des chaines de caractères et des fichiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/40-AlgorithmesEtObjets.html">2.4. Algorithmique et notions d&#8217;objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/50-Numpy.html">2.5. Numerical Python (Numpy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/60-Matplotlib.html">2.6. Séance 5 : Tracé de graphes avec Matplotlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/70-Scipy.html">2.7. Python Scientifique (SciPy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contenu/80-Synthese.html">2.8. Une application pratique de synthèse</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contenu/seances.html#autres">3. Autres</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contenu/90-LiensUtiles.html">3.1. Liens Utiles</a></li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
 </div>
 </div>
 
@@ -317,7 +226,7 @@ graduellement pour enrichir le graphe (légendes, titre, ....)</li>
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="seances.html" title="Contenu de la formation"
+          <a href="AUTEURS.html" title="&lt;no title&gt;"
              >next</a> |</li>
         <li><a href="#">home</a>|&nbsp;</li>
         <li><a href="search.html">search</a>|&nbsp;</li>
@@ -325,7 +234,7 @@ graduellement pour enrichir le graphe (légendes, titre, ....)</li>
       </ul>
     </div>
     <div class="footer">
-        &copy; Copyright 2012, B.Uguen.
+        &copy; Copyright Creatives Commons Document.
       Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
     </div>
   </body>
