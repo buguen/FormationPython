@@ -21,18 +21,28 @@ puissance et à en apprécier l'élégance.
 Premier exemple 
 ----------------
 
-Voici un exemple d'une session très simple, exécutée dans l'environnement 
+Voici un exemple d'une courte session, exécutée dans l'environnement 
 interactif Ipython (initié à l'Université de Berkeley par `Fernando
-Perez <http://fperez.org>`_ ) qui vise à devenir une plateforme générique de l'utilisation du langage
+Perez <http://fperez.org>`_ ) qui tend à devenir une plateforme universelle pour l'utilisation du langage
 Python dans le domaine des sciences.  
 
 .. ipython::
     
     In [1]: from math import *
+    
+    In [2]: import scipy.constants as cst
 
-    In [2]: cos(pi/3)**2+sin(pi/3)**2
+    In [3]: phi = (1+sqrt(5))/2
 
-    In [3]: 1j*1j 
+    In [4]: cos(phi)**2+sin(phi)**2
+
+    In [5]: phi*phi - phi
+
+    In [6]: -(1j*1j).real
+
+    In [7]: cst.epsilon_0*cst.mu_0*(cst.c)**2
+
+    In [8]: [ (k,cst.__dict__[k]) for k in cst.__dict__.keys()[20:29]] 
 
 .. note::    
 
@@ -44,7 +54,8 @@ Python dans le domaine des sciences.
 Par exemple dans l'exemple précédent le module `math` donne accès aux
 fonctions de
 la librairie standard `math` du langage C. Sans cette importation, il serait
-impossible d'accèder aux fonctions :math:`sin(x)` et :math:`cos(x)`. 
+impossible d'accèder aux fonctions :math:`\sin(x)`, :math:`\cos(x)` et
+:math:`\sqrt{x}`. 
 
 
 .. note::
@@ -78,7 +89,7 @@ du module `numpy` ?
 
 C'est effectivement un problème. Il vient de se créer un conflit entre espaces
 de noms : celui du module  `math` et celui de `numpy`. 
-Un même nom est partagé par plusieurs modules. 
+Un même nom est partagé par plusieurs modules !
 
 On peut régler ce probléme en important le module différemment. Il y a trois
 possibilités : 

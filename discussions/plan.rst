@@ -87,7 +87,7 @@ Séance 6 : Graphiques avec Matplotlib
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     + `visite de la grande galerie <http://matplotlib.org/gallery.html>`_ 
-
+       et de `la petite galerie <http://www.loria.fr/~rougier/coding/gallery/>`_
     + construction d'un graphe simple en 2d en ajoutant des éléments
       graduellement pour enrichir le graphe (légendes, titre, ....) 
 
