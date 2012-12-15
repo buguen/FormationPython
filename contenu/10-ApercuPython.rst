@@ -22,7 +22,7 @@ Premier exemple
 ----------------
 
 Voici un exemple d'une session très simple, exécutée dans l'environnement 
-interactif Ipython (développé à l'Université de Berkeley par `Fernando
+interactif Ipython (initié à l'Université de Berkeley par `Fernando
 Perez <http://fperez.org>`_ ) qui vise à devenir une plateforme générique de l'utilisation du langage
 Python dans le domaine des sciences.  
 
@@ -105,9 +105,9 @@ espaces de noms. Celui ci peut être très gênant et souvent source d'erreurs p
 à découvrir (*la fonction appelée n'étant pas la fonction que l'on croit être appelée*).
 Ceci peut facilement se produire, car quel développeur peut prétendre avoir
 mémorisé l'intégralité des fonctions de tous les modules dont il a l'usage ? 
-C'est trop gros, trop vaste, il faut cloisonner, et Python permet cela. 
+C'est trop vaste, il faut donc cloisonner, et Python permet cela. 
 
-Bien sûr si l'usage que l'on a de python implique très peu de module l'import * est raisonable. 
+Bien sûr, si l'usage que l'on a de python implique très peu de modules, l'import * est raisonable. 
 
 Les librairies importantes ont des alias génériques adoptés par tous qu'il
 convient d'employer. 
@@ -123,6 +123,8 @@ convient d'employer.
     In [1]: import scipy.linalg as la
 
     In [1]: import matplotlib.pyplot as plt
+    
+    In [1]: import pylab as pl
 
 
 
