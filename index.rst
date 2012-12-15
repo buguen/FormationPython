@@ -96,12 +96,11 @@ Formation Python et Python Scientifique
 
   </style>
 
-.. topic:: Ce document
+.. topic:: Contenu  
 
         Matériel pédagogique sur l'écosystème Python. Une rapide introduction 
         sur les outils et techniques clés. Chaque chapitre correspond à un
-        cours de 1 à 2 heures avec un degré croissant de complexité du
-        débutant à l'expert. 
+        cours de 1 à 2 heures avec un degré croissant de complexité. 
 
 .. toctree::
     :maxdepth: 1
@@ -111,49 +110,7 @@ Formation Python et Python Scientifique
     LISEZMOI.rst
     LICENSE.rst
     discussions/plan.rst
-_____
-
-.. toctree::
-   :maxdepth: 3
-   :numbered:
-
-   intro/index.rst
-   advanced/index.rst
-
-____
-
-
-.. only:: html
-
- .. raw:: html
-
-   <small>
-
- Version: |version| (output of ``git describe`` for `project repository`_)
-
- .. _`project repository`: https://github.com/scipy-lectures/scipy-lecture-notes
-
-..  
- FIXME: I need the link below to make sure the banner gets copied to the
- target directory.
-
-.. only:: html
-
- .. raw:: html
- 
-   <div style='visibility: hidden ; height=0'>
-
- :download:`PythonScientific.pdf` :download:`PythonScientific-simple.pdf`
-
- .. raw:: html
- 
-   </div>
-   </small>
-
-
-.. toctree::
-   :maxdepth: 2
-   discussion/plan.rst
+    discussions/programme.rst
 
 .. toctree::
    :maxdepth: 3

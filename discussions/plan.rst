@@ -41,9 +41,9 @@ Séance 2 : Éléments de base du langage
 
     %timeit l1.sort() 
 
-Séance 3 : Chaines et fichiers
+Séance 3 : Chaînes et fichiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+    
     + traitement des chaines de caractères
         + s.replace() 
         + s1 + s2 
@@ -51,7 +51,7 @@ Séance 3 : Chaines et fichiers
     + type de fichiers 
         + mode d'accès
     + glob.glob 
-
+    + Sans doute ces points peuvent être intégrés dans la séance 2. 
 
 Séance 4 : Python Objet & Bases de données
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

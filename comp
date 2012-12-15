@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+#  get the release number
+#  increments the release number 
+#  backups conf.py in case regexp failure
+#  updates conf.py 
+#  make html 
+#  make latexpdf
+#  move pdf document in documents directory
+#
+version=`cat conf.py | grep "release ="  | sed "s/.*= //" | sed "s/'//g" | sed "s/.*\.//"`
+a=`expr $version + 1`
+newversion=0.$a
+echo $newversion
+cat conf.py | sed "s/release = .*/release = '$newversion'/" > ftmp
+mv conf.py conf.sauv
+mv ftmp conf.py
+make html >/dev/null 
+make latexpdf >/dev/null
+cp _build/latex/PythonScientifique.pdf documents

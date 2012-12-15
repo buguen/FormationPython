@@ -1,3 +1,5 @@
+Scipy et le calcul scientifique de haut niveau 
+==============================================
 
-Python Scientifique (SciPy)
-===========================
+
+`scipy <http://scipy-lectures.github.com/intro/scipy.html>`_
