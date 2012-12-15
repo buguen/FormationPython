@@ -165,7 +165,7 @@ numériques sur ordinateur.
 .. _l2:
 
 Algorithmique et programmation 
-================================
+------------------------------
 
 Seconde partie du semestre 1.
 
@@ -173,7 +173,7 @@ Seconde partie du semestre 1.
 .. _l2a:
 
 Outils employés
----------------
+~~~~~~~~~~~~~~~
 
 Au premier semestre, l’enseignement se fonde sur un environnement de programmation
 (langage et bibliothèques) basé sur un langage interprété largement répandu et à source libre.
@@ -207,7 +207,7 @@ et d’environnements en fonction des évolutions et des besoins.
 .. _l2b:
 
 Algorithmique
--------------
+~~~~~~~~~~~~~
 
 Les compétences en matière d’algorithmique et de programmation étant profondément liées, il
 est souhaitable que ces deux sujets soient abordés de concert, même si pour des raisons de
@@ -260,29 +260,29 @@ Les étudiants devront être capables de programmer dans le langage de programma
 ci-dessus les différents algorithmes étudiés.
 
 Programmation
--------------
+~~~~~~~~~~~~~
 
 On insistera sur une organisation modulaire des programmes ainsi que sur la nécessité d’une
 programmation structurée et parfaitement documentée.
 
 + **Variables** : notion de type et de valeur d’une  variable, types simples.                        
- Les types simples présentés sont les  entiers, flottants, booléens et chaînes de caractères.   
+    Les types simples présentés sont les  entiers, flottants, booléens et chaînes de caractères.   
 
 + **Expressions et instructions simples** : 
- affectation, opérateurs usuels, distinction entre expression et instruction 
- Les expressions considérées sont à valeurs numériques, booléennes ou de type chaîne de caractères.
+    affectation, opérateurs usuels, distinction entre expression et instruction 
+     Les expressions considérées sont à valeurs numériques, booléennes ou de type chaîne de caractères.
 
 + **Instructions conditionnelles**:
-expressions booléennes et opérateurs logiques simples, structurer et comprendre plusieurs
-instruction if. Variantes avec alternative (else).
+    expressions booléennes et opérateurs logiques simples, structurer et comprendre plusieurs
+    instruction if. Variantes avec alternative (else).
 
 Les étudiants devront être capables de niveaux d’alternatives implantées par des instructions conditionnelles imbriquées.
 
 + **Instructions itératives** : 
-  boucles for, boucles conditionnelles while.
-Les sorties de boucle (instruction break) peuvent être présentées et se
-justifient uniquement lorsqu’elles contribuent à simplifier notablement la
-programmation sans réelle perte de lisibilité des conditions d’arrêt.
+    boucles for, boucles conditionnelles while.
+    Les sorties de boucle (instruction break) peuvent être présentées et se
+    justifient uniquement lorsqu’elles contribuent à simplifier notablement la
+    programmation sans réelle perte de lisibilité des conditions d’arrêt.
 
 + **Fonctions** : 
   notion de fonction (au sens informatique), définition dans le langage utilisé, paramètres (ou arguments) et résultats, portée des variables.
@@ -291,18 +291,19 @@ programmation sans réelle perte de lisibilité des conditions d’arrêt.
   La récursivité sera présentée plus tard.
 
 + **Manipulation de quelques structures de données**: 
-chaînes de caractères (création, accès à un caractère, concaténation), listes (création, ajout
-d’un élément, suppression d’un élément, accès à un élément, extraction d’une partie de liste), tableaux à une ou plusieurs dimensions.
+    chaînes de caractères (création, accès à un caractère, concaténation), listes (création, ajout
+    d’un élément, suppression d’un élément, accès à un élément, extraction d’une partie de liste), tableaux à une ou plusieurs dimensions.
 
-On met en évidence le fait que certaines opérations d’apparence simple cachent
-un important travail pour le processeur.  On met à profit la structure de
-tableau d’entiers à deux dimensions pour introduire la notion d’image
-ponctuelle (« bitmap »). Les algorithmes de traitement d’image seront abordés
-plus tard.
+    On met en évidence le fait que certaines opérations d’apparence simple cachent
+    un important travail pour le processeur.  On met à profit la structure de
+    tableau d’entiers à deux dimensions pour introduire la notion d’image
+    ponctuelle (« bitmap »). Les algorithmes de traitement d’image seront abordés
+    plus tard.
 
-+ **Fichiers** : notion de chemin d’accès, lecture et écriture de données numériques ou de type chaîne de caractères depuis ou vers un fichier.
++ **Fichiers** : 
+    notion de chemin d’accès, lecture et écriture de données numériques ou de type chaîne de caractères depuis ou vers un fichier.
 
-On encourage l’utilisation de fichiers en tant que supports de données ou de résultats avant divers traitements, par exemple graphiques. 
+    On encourage l’utilisation de fichiers en tant que supports de données ou de résultats avant divers traitements, par exemple graphiques. 
 
 .. comment::
     B.U
@@ -325,12 +326,12 @@ exemples fournis dans cette documentation,
 + documenter une fonction, un programme plus complexe.
 
 Ingénierie numérique et simulation
-==================================
+----------------------------------
 
 Première partie du semestre 2.
 
 Objectifs et organisation de cet enseignement
----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dans cette partie de programme, on étudie le développement d'algorithmes numériques sur des
 problèmes scientifiques étudiés et mis en équation dans les autres disciplines. La pédagogie
@@ -353,7 +354,7 @@ Aucune connaissance des fonctions des bibliothèques n’est exigible des étudi
     avec les bibliothèques **Numpy/Scipy**, sont les environnements choisis.
 
 Simulation numérique
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Il s’agit d’apprendre aux étudiants à utiliser des algorithmes numériques simples et/ou à utiliser
 des bibliothèques pour résoudre des problèmes étudiés et mis en équation dans les autres
@@ -457,13 +458,13 @@ tenir compte des aspects pratiques comme l’impact des erreurs d’arrondi sur 
 résultats, le temps de calcul ou le stockage en mémoire.
 
 Initiation aux bases de données
-===============================
+-------------------------------
 
 Seconde moitié du semestre 2.
 
 
 Objectifs de l’enseignement
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 L’objectif de cette partie de la formation vise à développer les savoir-faire suivants :
 + recourir aux concepts des bases de données relationnelles ;
@@ -479,63 +480,58 @@ inopérants : les schémas relationnels sont une réponse à ce problème.
 
 
 Contenu
--------
+~~~~~~~
 
-Contenus
++ Vocabulaire des bases de données : relation, Ces concepts sont présentés dans une
+    attribut, domaine, schéma de relation ; notion de perspective applicative, à partir d’exemples.
+    clé primaire.
 
-Précisions et commentaires
++ Opérateurs usuels sur les ensembles dans un
+    contexte de bases de données : union, intersection, différence.
+    Opérateurs spécifiques de l'algèbre relationnelle :
+    projection, sélection (ou restriction), renommage,
+    jointure, produit et division cartésiennes ;
+    fonctions d'agrégation : min, max, somme, moyenne, comptage.
 
-Vocabulaire des bases de données : relation, Ces concepts sont présentés dans une
-attribut, domaine, schéma de relation ; notion de perspective applicative, à partir d’exemples.
-clé primaire.
-Opérateurs usuels sur les ensembles dans un
-contexte de bases de données : union,
-intersection, différence.
-Opérateurs spécifiques de l'algèbre relationnelle :
-projection, sélection (ou restriction), renommage,
-jointure, produit et division cartésiennes ;
-fonctions d'agrégation : min, max, somme,
-moyenne, comptage.
+    Ces concepts sont présentés dans une
+    perspective applicative. Les seules jointures
+    présentées seront les jointures symétriques,
+    simples (utilisant JOIN .. ON ... = ... ).
 
-Ces concepts sont présentés dans une
-perspective applicative. Les seules jointures
-présentées seront les jointures symétriques,
-simples (utilisant JOIN … ON …=...).
++ Concept de client-serveur. Brève extension au cas de l’architecture trois-tiers.
 
-Concept de client-serveur. Brève extension au
-cas de l’architecture trois-tiers.
-
-On se limite à présenter ce concept dans la
-perspective applicative d’utilisation de
-bases de données.
+    On se limite à présenter ce concept dans la perspective applicative d’utilisation de bases de données.
 
 La liste suivante énumère un choix non exhaustif d’exercices pratiques. Les bases de données
 utilisées à des fins d’illustration concerneront de préférence des questions choisies au sein des
 autres disciplines scientifiques et technologiques.
 
 
-utiliser une application de création et de manipulation de données, offrant une interface
-graphique, notamment pour créer une base de données simple, ne comportant pas plus
-de trois tables ayant chacune un nombre limité de colonnes. L’installation et
-l’exploitation d’un serveur SQL ne fait pas partie des attendus.
-lancer des requêtes sur une base de données de taille plus importante, comportant
-plusieurs tables, que les étudiants n'auront pas eu à construire, à l’aide d’une application
-offrant une interface graphique ;
-enchaîner une requête sur une base de données et un traitement des réponses
-enregistrées dans un fichier.
++   utiliser une application de création et de manipulation de données, offrant une interface
+    graphique, notamment pour créer une base de données simple, ne comportant pas plus
+    de trois tables ayant chacune un nombre limité de colonnes. 
+    
+    L’installation et l’exploitation d’un serveur SQL ne fait pas partie des attendus.
 
-Les principales capacités développées dans cette partie de la formation sont :
++   lancer des requêtes sur une base de données de taille plus importante, comportant
+    plusieurs tables, que les étudiants n'auront pas eu à construire, à l’aide d’une application
+    offrant une interface graphique ;
+
++   enchaîner une requête sur une base de données et un traitement des réponses
+    enregistrées dans un fichier.
+
+**Les principales capacités** développées dans cette partie de la formation sont :
 
 + utiliser une application offrant une interface graphique pour créer une base de données
-et l’alimenter,
+    et l’alimenter,
 + utiliser une application offrant une interface graphique pour lancer des requêtes sur une
-base de données,
+    base de données,
 + distinguer les rôles respectifs des machines client, serveur, et éventuellement serveur
-de données,
+    de données,
 + traduire dans le langage de l’algèbre relationnelle des requêtes écrites en langage
-courant,
+    courant,
 + concevoir une base constituée de plusieurs tables, et utiliser les jointures symétriques
-pour effectuer des requêtes croisées.
+    pour effectuer des requêtes croisées.
 
 Algorithmique et programmation II
 ---------------------------------
@@ -543,7 +539,7 @@ Algorithmique et programmation II
 Seconde année.
 
 Objectifs de l’enseignement
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le but de cette partie de la formation est de dépasser la vision des algorithmes qui a été
 introduite en semestre 1 et de donner accès à un petit nombre d’autres méthodes et structures,
@@ -552,27 +548,24 @@ apports du semestre 2, les compétences acquises dans cette partie seront imméd
 utiles pour le développement des T.I.P.E. que les étudiants auront à réaliser.
 
 Contenu
--------
+~~~~~~~
 
 
-Piles
-~~~~~
++ **Piles**
+    Algorithmes de manipulation : fonctions 'push' et 'pop'. On utilise des listes
+    (ou tableaux à 1 dimension) pour leur implantation.
 
-Algorithmes de manipulation : fonctions 'push' et 'pop'. On utilise des listes
-(ou tableaux à 1 dimension) pour leur implantation.
++ **Récursivité**
 
-Récursivité
-~~~~~~~~~~~
+    On en présente les avantages et les inconvénients.
 
-On en présente les avantages et les inconvénients.
++ **Tris** d’un tableau à une dimension de valeurs
+    numériques : tri par insertion, tri rapide (ou 'quicksort'),
+    tri par fusion. Application à la
+    recherche de la médiane d’une liste de nombres.
 
-Tris d’un tableau à une dimension de valeurs
-numériques : tri par insertion, tri rapide (ou 'quicksort'),
-tri par fusion. Application à la
-recherche de la médiane d’une liste de nombres.
-
-On étudie et on compare ces algorithmes de tri du point de vue des complexités temporelles dans le meilleur et dans le
-pire cas.
+    On étudie et on compare ces algorithmes de tri du point de vue des complexités temporelles dans le meilleur et dans le
+    pire cas.
 
 .. note::
 
@@ -620,8 +613,8 @@ cependant exigible.
 + concevoir un algorithme répondant à un problème précisément posé,
 + expliquer le fonctionnement d’un algorithme,
 + comprendre le fonctionnement d’un algorithme récursif et l’utilisation de la mémoire lors
-de son exécution,
+    de son exécution,
 + comprendre les avantages et défauts respectifs des approches récursive et itérative,
-s’interroger sur l’efficacité algorithmique temporelle d’un algorithme,
-distinguer par leurs complexités deux algorithmes résolvant un même problème.
+    s’interroger sur l’efficacité algorithmique temporelle d’un algorithme,
+    distinguer par leurs complexités deux algorithmes résolvant un même problème.
 

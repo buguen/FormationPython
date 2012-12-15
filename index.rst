@@ -110,6 +110,11 @@ Formation Python et Python Scientifique
     LISEZMOI.rst
     LICENSE.rst
     discussions/plan.rst
+
+.. toctree::
+    maxdepth:2
+    :numbered:
+
     discussions/programme.rst
 
 .. toctree::
