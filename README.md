@@ -12,7 +12,7 @@ make latexpdf pour construire le pdf
 
 + le répertoire `contenu` est destiné à recevoir le contenu des séances de formation 
 
-+ le répertoire `document` contient les ressources pdf, en particulier le document en cour d'élaboration `PythonScientifique.pdf` 
++ le répertoire `document` contient les ressources pdf, en particulier le document en cours d'élaboration `PythonScientifique.pdf` 
 
 + le répertoire `notebook` contient les notebooks associés à la formation
 
